@@ -6,9 +6,12 @@ Tento projekt se zabývá analýzou dostupnosti základních potravin v České 
 
 ## Struktura projektu
 
-- **sql_scripts/**: Obsahuje SQL skripty pro vytvoření tabulek a analytické dotazy.
-- **results/**: Obsahuje výsledky analýzy a průvodní listinu.
-
+- `data/` - Zdroje dat
+  - `primary_final_data.sql`
+  - `secondary_final_data.sql`
+- `analysis/` - Výzkumné otázky
+  - `question1.sql` až `question5.sql`
+ 
 ## Autor
 
 - Alina Maksimčikova
